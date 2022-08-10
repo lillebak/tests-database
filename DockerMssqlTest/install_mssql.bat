@@ -1,0 +1,1 @@
+docker run -e "ACCEPT_EULA=Y" -e "SA_PASSWORD=Dokking2022" -e "MSSQL_PID=Developer" -p 11434:1433 -d mcr.microsoft.com/mssql/server:2019-CU16-ubuntu-20.04
